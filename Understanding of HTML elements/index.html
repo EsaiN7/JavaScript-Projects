@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+
+<meta charset="UTF-8" />
+<title>Approval voting</title>
+
+<!--
+CS 3312, spring 2022
+Studio 2
+YOUR NAME: Esai Barron
+-->
+<!-- Import a CSS stylesheet to style the page. -->
+<link href="style.css" rel="stylesheet" />
+
+</head><body>
+
+<!-- Add your HTML code here. -->
+<h1 id="top-header" > A new way to vote </h1>
+
+<p>Why be limted to voting for only one candidate?</p>
+
+<fieldset> 
+   
+   <legend> A ballot using plurality voting</legend>
+   <ul>
+     <li><label><input id="plurality-for-roosevelt" name="plurality-ballot" type="radio" />&nbsp;Theodore Roosevelt</label></li>
+     <li><label><input checked="checked" id="plurality-for-taft" name="plurality-ballot" type="radio" />&nbsp;William Taft </label></li>
+     <li><label><input id="plurality-for-wilson" name="plurality-ballot" type="radio"  />&nbsp; Woodrow Wilson</label></li>
+   </ul>
+   
+</fieldset>
+
+<p> Approval voting lets you approve <em>any</em> candidates you like.</p>
+
+<fieldset>
+   
+   <legend> A ballot using approval voting </legend>
+      <ul>
+         <li><label><input checked="checked" id="approval-for-roosevelt" type="checkbox" />&nbsp;Theodore Roosevelt</label></li>
+         <li><label><input checked="checked" id="approval-for-taft" type="checkbox"  />&nbsp; William Taft</label></li>
+         <li><label><input id="approval-for-wilson" type="checkbox" /></label>&nbsp; Woodrow Wilson</li>
+      </ul>
+
+</fieldset>
+
+<p>Some advantanges:</p>
+<ol>
+   <li> No <a href="https://en.wikipedia.org/wiki/Spoiler_effect"> spoiler effect</a></li>
+   <li> No <a href="https://en.wikipedia.org/wiki/Strategic_nomination"> strategic nomination</a></li>
+   <li> No <a href="https://en.wikipedia.org/wiki/Vote_splitting"> vote splitting</a></li>
+</ol>
+
+<p>and now for a what-if scenario:</p>
+
+<table>
+   <caption> 1912 presidential election</caption>
+   <tr>
+      <th scope="col">candidate</th>
+      <th scope ="col"> actual popular vote</th>
+      <th scope="col"> hypothetical approval vote</th>
+   </tr>
+   
+   <tr>
+      <th scope="row"> Theodore Roosevelt</th>
+      <td>27.4%</td>
+      <td>52%</td>
+   </tr>
+   
+   <tr>
+      <th scope="row"> William Taft </th>
+      <td>23.2%</td>
+      <td>48%</td>
+   </tr>
+   
+   <tr>
+      <th scope="row"> Woodrow Wilson </th>
+      <td> 41.8%</td>
+      <td> 43%</td>
+   </tr>
+   
+</table>
+
+
+
+<p>Enter your e-mail address to receive updates on this issue:
+<input id="name-input" type="email" />
+<button id="submit-name" type="button">Submit it</button>
+</p>
+
+
+</body></html>
