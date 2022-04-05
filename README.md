@@ -1,5 +1,5 @@
 # JavaScript-Projects
-I'm currently taking a web programming course is college, consisting of CSS, HTML5, and JavaScript.
+I'm currently taking a web programming course while in college, consisting of CSS, HTML5, and JavaScript.
 
 I've uploaded some of my Web Programming Projects that display my skills in HTML5, CSS, and JavaScript.
 
